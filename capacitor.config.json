@@ -1,0 +1,16 @@
+{
+  "appId": "com.thelocal.serverslides",
+  "appName": "Server Slides",
+  "webDir": "www",
+  "server": {
+    "hostname": "slides.thelocal.co.in",
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": true
+  },
+  "plugins": {
+    "CapacitorCookies": { "enabled": true },
+    "LocalNotifications": { "iconColor": "#F2B544" }
+  }
+}
